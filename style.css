@@ -9,17 +9,21 @@ body{
 /* стилизуем наши блоки */
 .blok{
   width: 50%;
-  height: 200px;
-  background-color: #202020;
+  height: 400px;
+  background-color: #3b3b3b;
   box-shadow: 1px 1px 17px rgb(0, 0, 0);
   margin: 2% auto;
+  border-radius: 20px;
 }
 /* скрываем блоки для того чтобы унас получилась анимация
 Управляй анимацией и не перестовай оттачиваать свои навыки */
-._opa{
-  transform: translate(0px, -50px);
+
+
+/* анимация будет сверху в низ */
+._top-bottom{
+  transform: translate(0px, 100px);
   opacity: 0;
-  transition: all 2.5s ease 0s;
+  transition: all 3s ease 0s;
 }
 /*
 скрытый класс который будет добавляться
