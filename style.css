@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #202020;
+}
+/* стилизуем наши блоки */
+.blok{
+  width: 50%;
+  height: 200px;
+  background-color: #202020;
+  box-shadow: 1px 1px 17px rgb(0, 0, 0);
+  margin: 2% auto;
+}
+/* скрываем блоки для того чтобы унас получилась анимация
+Управляй анимацией и не перестовай оттачиваать свои навыки */
+._opa{
+  transform: translate(0px, -50px);
+  opacity: 0;
+  transition: all 2.5s ease 0s;
+}
+/*
+скрытый класс который будет добавляться
+ при поподания в область экрана с небольшой анимацией */
+._active{
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+
+/* теперь ты знаешь как это сделать */
