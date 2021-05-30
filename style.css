@@ -23,7 +23,7 @@ body{
 ._top-bottom{
   transform: translate(0px, 100px);
   opacity: 0;
-  transition: all 3s ease 0s;
+  transition: all 1s ease 0s;
 }
 /*
 скрытый класс который будет добавляться
