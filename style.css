@@ -4,16 +4,29 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #202020;
+  background-color: #e3ebf9;
 }
 /* стилизуем наши блоки */
 .blok{
-  width: 50%;
-  height: 400px;
-  background-color: #3b3b3b;
-  box-shadow: 1px 1px 17px rgb(0, 0, 0);
+  width: 90%;
+  height: 600px;
+  background-color: #e3ebf9;
+  box-shadow: 0 0 20px rgb(115, 115, 115);
   margin: 2% auto;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+h1{
+  font-size: 2.5rem;
+  color: #171717;
 }
 /* скрываем блоки для того чтобы унас получилась анимация
 Управляй анимацией и не перестовай оттачиваать свои навыки */
@@ -24,6 +37,11 @@ body{
   transform: translate(0px, 100px);
   opacity: 0;
   transition: all 1s ease 0s;
+}
+._right-bottom{
+  transform: translate(100px, 0);
+  opacity: 0;
+  transition: all 1s ease .5s;
 }
 /*
 скрытый класс который будет добавляться
