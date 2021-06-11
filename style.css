@@ -6,6 +6,23 @@
 body{
   background-color: #e3ebf9;
 }
+body::-webkit-scrollbar {
+  width: 14px;
+  background: transparent;
+
+}
+body::-webkit-scrollbar-track{
+  background: #d4e2fa;
+  border-radius: 20px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 10px;
+  margin-right: 2px;
+}
+
 /* стилизуем наши блоки */
 .blok{
   width: 90%;
